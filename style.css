@@ -76,6 +76,7 @@ li{
     height: 50%;
     flex: 1 0 50%;
     padding: 5px; /* Ubah padding menjadi lebih kecil */
+    flex-wrap: wrap;
 }
 
 
