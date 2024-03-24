@@ -73,8 +73,8 @@ li{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50%;
-    flex: 1 0 50%;
+    height: 50vh;
+    flex: 1 0 50vh;
     padding: 5px; /* Ubah padding menjadi lebih kecil */
     flex-wrap: wrap;
 }
