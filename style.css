@@ -1,0 +1,138 @@
+.headline{
+    width: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+            display: flex;
+            justify-content: baseline;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            margin: 50;
+            padding-top: 56px; /* Tinggi navbar */
+            background-image: url(foto/background.jpg);
+            background-size: 100vh;
+  background: url(foto/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+        }
+
+.card {
+            margin: 15px;
+        }
+
+#isi-aboutme{
+            margin: 10px;
+        }
+
+.mt-0{
+    line-height: 2;
+}
+
+.teks{
+    color: whitesmoke;
+    line-height: 1;
+}
+
+li{
+    line-height: 1.5;
+}
+
+.card-img-top{
+  filter: grayscale(100%);
+  transition: .5s ;
+}
+
+.card-img-top:hover{
+  filter: grayscale(0%);
+  transition: .5s ;
+}
+
+.target{
+    color: black;
+    border: 10px;
+
+}
+
+/* Style all font awesome icons */
+
+.header-sosmed {
+    width: 250vh;
+    margin: 100px; /* Ubah margin menjadi lebih kecil */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tata-letak {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    flex: 1 0 50%;
+    padding: 5px; /* Ubah padding menjadi lebih kecil */
+}
+
+
+.fa {
+  padding: 40px;
+  font-size: 30px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  align-items:center;
+  margin: 10px;
+}
+
+/* sosial media style */
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+/* google */
+.fa-google {
+  background: #f03939;
+  color: white;
+}
+
+/* linkedin */
+.fa-linkedin {
+  background: #0e76a8;
+  color: white;
+}
+
+/* youtube */
+.fa-youtube {
+  background: #c4302b;
+  color: white;
+}
+
+/* instagram */
+.fa-instagram {
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );;
+  color: white;
+}
