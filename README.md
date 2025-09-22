@@ -1,16 +1,29 @@
-### Hi there 👋
+# Halo, brow! 👋
 
-<!--
-**mochgilang17/mochgilang17** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+class Developer:
+    def __init__(self):
+        self.nama = "Moch. Gilang Elang Perkasa"
+        self.minat = ["Frontend", "Mobile_app", "IOT"]
+        self.bahasa_favorit = ["Python", "C++", "SQL", "HTML", "CSS", "Dart"]
+        self.proyek = "Berfokus membangun hal yang berguna bagi sekitar."
+        
+    def sapaan_pembuka(self):
+        print("Selamat datang di profil saya! 💻")
 
-Here are some ideas to get you started:
+    def apa_yang_saya_lakukan(self):
+        for minat in self.minat:
+            print(f"Bekerja dengan {minat} 🚀")
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    def hubungi_saya(self):
+        # Cari saya di LinkedIn, Twitter, atau email
+        kontak = {
+            "LinkedIn": "Moch. Gilang Elang Perkasa",
+            "Instagram": "mochgilangelangperkasa",
+            "Email": "gilangelangperkasa@gmail.com"
+        }
+        return kontak
+
+if __name__ == "__main__":
+    saya = Developer()
+    saya.sapaan_pembuka()
+    # Anda bisa memanggil method lain untuk menampilkan informasi lebih lanjut
