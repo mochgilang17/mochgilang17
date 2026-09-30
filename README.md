@@ -21,9 +21,4 @@ class Developer:
             "Instagram": "mochgilangelangperkasa",
             "Email": "gilangelangperkasa@gmail.com"
         }
-        return kontak
-
-if __name__ == "__main__":
-    saya = Developer()
-    saya.sapaan_pembuka()
-    # Anda bisa memanggil method lain untuk menampilkan informasi lebih lanjut
+        return kontakS
